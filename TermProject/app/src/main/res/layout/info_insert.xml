@@ -23,34 +23,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:id="@+id/radioGroup_cate"
         >
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="study"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/study"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="play"
-                android:layout_weight="1"                />
+                android:layout_weight="1"
+                android:id="@+id/play"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="leisure"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/leisure"/>
 
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="health "
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/health"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="etc"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:id="@+id/etc"/>
     </RadioGroup>
     <LinearLayout
         android:layout_width="match_parent"
@@ -65,7 +71,8 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="19"/>
+            android:layout_weight="19"
+            android:id="@+id/editText_title"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,7 +86,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:gravity="top"/>
+            android:gravity="top"
+            android:id="@+id/editText_content"/>
     </LinearLayout>
 
     <LinearLayout

@@ -49,5 +49,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="입력된 정보 모두 저장"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:id="@+id/button_storeAllData"/>
 </LinearLayout>
