@@ -13,39 +13,34 @@
         android:textSize="20sp"
         android:id="@+id/textview_work_select"       
         />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </RelativeLayout>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
         >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="study  "
+                android:text="study"
                 android:layout_weight="1"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="play   "
-                android:layout_weight="1"/>
+                android:text="play"
+                android:layout_weight="1"                />
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="leisure"
                 android:layout_weight="1"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="PC       "
-                android:layout_weight="1"/>
+
+
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -54,9 +49,8 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="etc       "
+                android:text="etc"
                 android:layout_weight="1"/>
-        </LinearLayout>
     </RadioGroup>
     <LinearLayout
         android:layout_width="match_parent"
