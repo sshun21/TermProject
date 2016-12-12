@@ -22,6 +22,9 @@ public class CheckGoal extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(CheckGoal.this,MainActivity.class);
                 startActivity(i);
+
+                  //final exam
+                ///수정함 나연
             }
         });
     }
