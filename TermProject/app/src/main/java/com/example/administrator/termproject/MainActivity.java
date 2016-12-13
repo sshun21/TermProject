@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-
+//가자 논산으로
 public class MainActivity extends AppCompatActivity {
     Button buttonInfo,buttonCheckInfo,buttonGoal;
     @Override
