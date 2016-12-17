@@ -11,5 +11,13 @@
         class="com.google.android.gms.maps.SupportMapFragment"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_marginTop="380dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="sutdy:0 play:0 leisure:0 health:0 etc:0"
+        android:textSize="30dp"
+        android:id="@+id/info_text"/>
 
 </RelativeLayout>

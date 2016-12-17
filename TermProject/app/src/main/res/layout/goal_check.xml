@@ -10,7 +10,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="하루 목표"
+            android:text="나의 목표"
             android:textSize="30sp"
             android:layout_weight="1"
             android:layout_gravity="center"
@@ -19,43 +19,31 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="확인"
+            android:id="@+id/check"
             android:layout_weight="1"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="달성 여부"
-            android:layout_weight="1"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="일주일 목표"
-            android:textSize="30sp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:gravity="center"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="확인"
-            android:layout_weight="1"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="달성 여부"
+            android:id="@+id/view"
             android:layout_weight="1"/>
     </LinearLayout>
     <TextView
         android:layout_width="340dp"
-        android:layout_height="330dp"
-        android:layout_gravity="center"/>
-
+        android:layout_height="300dp"
+        android:id="@+id/textview_des"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:text="나의 목표\nstudy:3000sec\nplay:3000sec\nleaisure:3000sec \nhealth:3000sec\netc:3000sec"/>
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:text="-:더함 +:덜함"/>
     <Button
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="확인 완료"
